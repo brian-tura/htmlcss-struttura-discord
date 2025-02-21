@@ -9,39 +9,57 @@
 <body>
     <!-- Logo link e login -->
     <div class="d-flex container">
-        <div class="content d-flex left-col bg-cheddar" style="flex-grow: 1;">logo</div>
+        <div class="content d-flex left-col bg-cheddar flex-g-1"><p>logo</p></div>
         <div class="content d-flex middle-col bg-cheddar" style="flex-grow: 3;"><p>link link link link link</p></div>
-        <div class="content d-flex right-col bg-cheddar" style="flex-grow: 1;">login</div>
+        <div class="content d-flex right-col bg-cheddar flex-g-1"><p>login</p></div>
     </div>
 
     <!-- Rettangolo rosa -->
     <div class="d-flex container bg-navy">
-        <div class="d-flex content min-h-400 bg-pink min-w-900 mar-50"></div>
+        <div class="content min-h-400 bg-pink min-w-900 mar-50"></div>
     </div>
 
     <!-- Rettangolo blu rettangolo rosa -->
     <div class="d-flex container ">
         <div class="content bg-blue min-h-600 left-col" style="flex-grow: 1.3;"></div>
-        <div class="content bg-pink min-h-600 right-col" style="flex-grow: 1;"></div>
+        <div class="content bg-pink min-h-600 right-col flex-g-1"></div>
     </div>
 
     <!-- Rettangolo rosa rettangolo blu -->
     <div class="d-flex container reverse-row bg-grey">
         <div class="content bg-blue min-h-600 right-col" style="flex-grow: 1.3;"></div>
-        <div class="content bg-pink min-h-600 left-col" style="flex-grow: 1;"></div>
+        <div class="content bg-pink min-h-600 left-col flex-g-1"></div>
     </div>
     
     <!-- Rettangolo blu rettangolo rosa -->
     <div class="d-flex container ">
         <div class="content bg-blue min-h-600 left-col" style="flex-grow: 1.3;"></div>
-        <div class="content bg-pink min-h-600 right-col" style="flex-grow: 1;"></div>
+        <div class="content bg-pink min-h-600 right-col flex-g-1"></div>
     </div>
 
     <!-- Rettangolo verde -->
     <div class="d-flex container reverse-row bg-grey">
-        <div class="content left-col right-col min-h-800 bg-green" style="flex-grow: 1;"></div>
+        <div class="content left-col right-col min-h-800 bg-green flex-g-1"></div>
     </div>
-    <div></div>
+
+    <!-- 5 colonne -->
+    <div class="d-flex container bg-dark-grey">
+        <div class="content left-col min-h-600 bg-pink" style="flex-grow: 1.5;"></div>
+        <div class="content min-h-600 bg-light-blue flex-g-1"></div>
+        <div class="content min-h-600 bg-light-blue flex-g-1"></div>
+        <div class="content min-h-600 bg-light-blue flex-g-1"></div>
+        <div class="content right-col min-h-600 bg-light-blue flex-g-1"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="d-flex container bg-dark-grey border-white">
+            <div class="d-flex left-col right-col bg-light-blue flex-g-1 end" style="justify-content: space-between;"> <!-- Ho provato ad usare una classe ma non funziona -->
+                <div class="bg-pink content"><p>Logo</p></div>
+                <div class="bg-pink content"><p>Bottone</p></div>
+            </div>
+        </div>
+    </footer>
     <div></div>
 </body>
 </html>

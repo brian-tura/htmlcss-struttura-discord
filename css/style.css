@@ -14,11 +14,24 @@
 
 }
 
+.sp{
+    justify-content: space-between;
+}
+
 .content{
-    margin: 20px 0px;
+    margin: 25px 0px;
     padding: 10px;
     color: black;
     border: dashed 2px;
+}
+
+.border-white{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+.flex-g-1{
+    flex-grow: 1;
 }
 
 .bg-cheddar{
@@ -43,6 +56,14 @@
 
 .bg-green{
     background-color: green;
+}
+
+.bg-light-blue{
+    background-color: lightblue;
+}
+
+.bg-dark-grey{
+    background-color: rgb(59, 59, 59);
 }
 
 /* Logo link e login */
@@ -83,4 +104,9 @@
 /* Rettangolo verde */
 .min-h-800{
     min-height: 800px;
+}
+
+/* Footer */
+.end{
+    margin-top: 20px;
 }
