@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: black;
+    border: dashed 2px ;
+}
+
+.left-col{
+    margin-left: 350px;
+
+}
+
+.right-col{
+    margin-right: 350px;
+    justify-content: flex-end;
+}
+
+.middle-col{
+    justify-content: center;
+}
+
+.bg-cheddar{
+    background-color: rgb(255, 196, 0);
+}
