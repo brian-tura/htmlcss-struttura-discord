@@ -18,7 +18,7 @@
     margin: 20px 0px;
     padding: 10px;
     color: black;
-    border: dashed 2px ;
+    border: dashed 2px;
 }
 
 .bg-cheddar{
@@ -39,6 +39,10 @@
 
 .bg-grey{
     background-color: rgb(197, 197, 197);
+}
+
+.bg-green{
+    background-color: green;
 }
 
 /* Logo link e login */
@@ -62,7 +66,7 @@
 }
 
 .min-w-900{
-    min-width: 900px;
+    min-width: 45%;
 }
 
 
@@ -75,4 +79,8 @@
 .reverse-row{
     flex-direction: row-reverse;
 }
-    
+
+/* Rettangolo verde */
+.min-h-800{
+    min-height: 800px;
+}
