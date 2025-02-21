@@ -9,7 +9,7 @@
 }
 
 .container{
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -22,6 +22,20 @@
     border: dashed 2px ;
 }
 
+.bg-cheddar{
+    background-color: rgb(255, 196, 0);
+}
+
+.bg-navy{
+    background-color: navy;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+
+/* Logo link e login */
 .left-col{
     margin-left: 350px;
 
@@ -36,6 +50,16 @@
     justify-content: center;
 }
 
-.bg-cheddar{
-    background-color: rgb(255, 196, 0);
+/* Container rosa */
+.min-h-400{
+    min-height: 400px;
 }
+
+.min-w-900{
+    min-width: 900px;
+}
+
+.mar-50{
+    margin: 50px 0;
+}
+    
